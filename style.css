@@ -279,6 +279,21 @@ input, select, textarea { font-family: inherit; }
   align-items: center;
   gap: 12px;
   flex-shrink: 0;
+  text-decoration: none;
+}
+
+.brand-logo-img {
+  height: 46px;
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0 2px 8px rgba(0, 163, 224, 0.35));
+  transition: transform var(--transition-fast), filter var(--transition-fast);
+}
+
+.header__logo:hover .brand-logo-img {
+  transform: scale(1.05);
+  filter: drop-shadow(0 4px 14px rgba(0, 163, 224, 0.55));
 }
 
 .logo-text {
@@ -373,7 +388,22 @@ input, select, textarea { font-family: inherit; }
 }
 .header__mobile-menu.open {
   display: block;
-  max-height: 400px;
+  max-height: 450px;
+}
+
+.mobile-menu__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: var(--sp-2) 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: var(--sp-1);
+}
+
+.mobile-menu__brand img {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
 }
 
 .header__mobile-link {
@@ -737,6 +767,14 @@ input, select, textarea { font-family: inherit; }
   font-weight: 800;
   font-size: 14px;
   letter-spacing: 0.06em;
+}
+
+.abonos__logo-img {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0 2px 6px rgba(0, 163, 224, 0.3));
 }
 
 .abonos__card-badge {
@@ -1197,6 +1235,19 @@ input, select, textarea { font-family: inherit; }
   align-items: center;
   gap: 12px;
   margin-bottom: var(--sp-3);
+}
+
+.footer__logo-img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0 2px 10px rgba(0, 163, 224, 0.3));
+  transition: transform var(--transition-fast);
+}
+
+.footer__logo-img:hover {
+  transform: scale(1.05);
 }
 
 .footer__brand {
