@@ -3,7 +3,7 @@ const WA = '5492612510379';
 const detalles = {
   'Electricidad': ['Instalación eléctrica nueva', 'Normalización o armado de tablero', 'Detección y reparación de fallas', 'Cableado y recableado', 'Iluminación'],
   'Refrigeración y climatización': ['Instalación de aire acondicionado', 'Preinstalación en obra', 'Desinstalación de equipo', 'Revisión y diagnóstico', 'Reparación de equipo de refrigeración', 'Mantenimiento preventivo'],
-  'Cámaras de seguridad': ['Instalación de sistema de cámaras', 'Canalización y cableado', 'Configuración de visualización en el celular', 'Mantenimiento de sistema existente']
+  'Sistema CCTV (sistema de video)': ['Instalación de sistema CCTV', 'Canalización y cableado', 'Configuración de visualización en el celular', 'Mantenimiento de sistema existente']
 };
 
 const btns = document.querySelectorAll('.sim__btn');
@@ -38,3 +38,11 @@ btns.forEach(b => b.addEventListener('click', () => {
 }));
 selDetalle.addEventListener('change', actualizar);
 selZona.addEventListener('change', actualizar);
+
+/* Menú móvil */
+(function(){const b=document.getElementById('burger'),m=document.getElementById('mmenu');if(!b||!m)return;
+const set=o=>{m.classList.toggle('open',o);b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Cerrar menú':'Abrir menú')};
+b.addEventListener('click',()=>set(!m.classList.contains('open')));
+m.addEventListener('click',e=>{if(e.target.closest('a'))set(false)});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')set(false)});
+matchMedia('(min-width:961px)').addEventListener('change',e=>{if(e.matches)set(false)});})();

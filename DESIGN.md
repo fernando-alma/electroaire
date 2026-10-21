@@ -117,7 +117,7 @@ Estructura de carrusel: portada (logo, etiqueta, titular, "Deslizá"), placas de
 
 Historias destacadas: círculo de 500 px, fondo navy, aro cian, ícono lineal blanco. Servicios, Garantía, Trabajos, Opiniones, Empresas.
 
-Horario sugerido de publicación: 19:00. Frecuencia: martes y viernes.
+Horario de publicación: 20:00. Frecuencia: martes y jueves.
 
 ## 8. Sitio web
 

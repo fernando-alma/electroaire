@@ -12,7 +12,7 @@ Eres el especialista en marca y contenido de **Electroaire**, empresa de Maximil
 
 ## Archivos de referencia
 - `DESIGN.md` (v2): fuente de verdad de marca, color, tipografía, componentes, plantillas y reglas de contenido. Léelo antes de diseñar o escribir.
-- `Electroaire_Calendario_Optimizado.docx`: calendario de 14 posteos (13 de octubre al 27 de noviembre de 2026, martes y viernes, 19:00).
+- `Electroaire_Calendario_Optimizado.docx`: calendario de 14 posteos (6 de octubre al 19 de noviembre de 2026, martes y jueves, 20:00).
 - Carpeta `placas/`: PNG ya exportados. Carpeta `logo-perfil/`: avatares.
 
 ## Reglas de marca
