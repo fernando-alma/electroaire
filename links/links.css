@@ -21,7 +21,7 @@ h1,h2,p{margin:0}
 .page{position:relative;z-index:1;width:100%;max-width:480px;margin:0 auto;padding:40px 20px 32px;display:flex;flex-direction:column;gap:28px}
 
 .profile{display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px}
-.profile__avatar{width:112px;height:112px;border-radius:50%;object-fit:cover;background:var(--navy);border:3px solid var(--blue-electric);box-shadow:0 8px 24px -4px rgba(0,0,0,.45);margin-bottom:10px}
+.profile__avatar{width:112px;height:112px;object-fit:contain;margin-bottom:10px}
 .profile__name{font:800 italic 34px/1 var(--f-head);letter-spacing:-.02em}
 .profile__name span{color:var(--blue-ondark)}
 .profile__desc{font:600 15px/1.4 var(--f-body);color:var(--muted-ondark);margin-top:6px}
